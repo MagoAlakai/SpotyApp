@@ -8,11 +8,11 @@ import { SpotifyService } from './../../services/spotify.service';
 })
 export class HomeComponent implements OnInit {
 
-  protected nuevasCanciones: any[] = [];
-  protected loading: boolean;
-  protected error: boolean;
-  protected mensajeError: string;
-  protected status: number;
+  public nuevasCanciones: any[] = [];
+  public loading: boolean;
+  public error: boolean;
+  public mensajeError: string;
+  public status: number;
 
   constructor( private _spotifyService: SpotifyService) {
 

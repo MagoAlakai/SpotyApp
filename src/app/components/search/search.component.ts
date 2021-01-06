@@ -9,8 +9,8 @@ import { SpotifyService } from '../../services/spotify.service';
 
 export class SearchComponent implements OnInit {
 
-  protected artistas: any[] = [];
-  protected loading: boolean;
+  public artistas: any[] = [];
+  public loading: boolean;
 
   constructor(private _spotifyService: SpotifyService ) {
   }

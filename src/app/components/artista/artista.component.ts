@@ -9,8 +9,8 @@ import { SpotifyService } from '../../services/spotify.service';
 })
 export class ArtistaComponent implements OnInit {
 
-  protected artista: any = {};
-  protected topTracks: any[] = [];
+  public artista: any = {};
+  public topTracks: any[] = [];
 
   constructor( private router: ActivatedRoute,
                private _spotifyService: SpotifyService
